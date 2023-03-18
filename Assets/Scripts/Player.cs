@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        QualitySettings.vSyncCount = 1;
         rb = GetComponent<Rigidbody2D>();
     }
 
